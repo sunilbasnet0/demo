@@ -1,14 +1,185 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+"blogs":   {
+    "id": 1,
+    "title": "Empowering Communities Through Education",
+    "author": "John Doe",
+    "published_date": "2024-11-20",
+    "status": "Published",
+    "popular": true,
+    "image_name": "empowering_communities.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=Empowering+Communities",
+    "category": "Education",
+    "content": "Our mission is to provide quality education to underserved communities. By partnering with local schools, we aim to bridge the educational gap and create opportunities for children to succeed in life.",
+    "tags": ["education", "community", "opportunity"]
+  },
+  {
+    "id": 2,
+    "title": "Clean Water Initiative: A Step Towards Healthier Lives",
+    "author": "Jane Smith",
+    "published_date": "2024-11-15",
+    "status": "Published",
+    "popular": true,
+    "image_name": "clean_water_initiative.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=Clean+Water+Initiative",
+    "category": "Health & Wellness",
+    "content": "Access to clean water is a fundamental human right. Our NGO is working tirelessly to bring safe drinking water to rural areas.",
+    "tags": ["water", "health", "wellness"]
+  },
+  {
+    "id": 3,
+    "title": "A Day in the Life of a Volunteer",
+    "author": "Samuel Turner",
+    "published_date": "2024-11-10",
+    "status": "Published",
+    "popular": false,
+    "image_name": "volunteer_day.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=Volunteer+Day",
+    "category": "Volunteer Stories",
+    "content": "Volunteering with our NGO has been a life-changing experience. In this blog, one of our volunteers shares a day in their life helping out at one of our community centers.",
+    "tags": ["volunteer", "community", "giving back"]
+  },
+  {
+    "id": 4,
+    "title": "Reforestation: Saving the Planet, One Tree at a Time",
+    "author": "Emily Davis",
+    "published_date": "2024-11-05",
+    "status": "Draft",
+    "popular": false,
+    "image_name": "reforestation.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=Reforestation",
+    "category": "Environment",
+    "content": "Climate change is one of the most urgent issues of our time, and reforestation is a critical solution.",
+    "tags": ["environment", "climate change", "reforestation"]
+  },
+  {
+    "id": 5,
+    "title": "Supporting Mental Health in Underprivileged Areas",
+    "author": "Michael Lee",
+    "published_date": "2024-10-30",
+    "status": "Published",
+    "popular": true,
+    "image_name": "mental_health_support.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=Mental+Health+Support",
+    "category": "Mental Health",
+    "content": "Mental health is often overlooked in low-income communities. Our NGO is working to raise awareness about mental health issues and provide support.",
+    "tags": ["mental health", "support", "awareness"]
+  },
+  {
+    "id": 6,
+    "title": "Food Security for All: How We're Making a Difference",
+    "author": "Sarah Green",
+    "published_date": "2024-10-25",
+    "status": "Published",
+    "popular": true,
+    "image_name": "food_security.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=Food+Security+Initiative",
+    "category": "Sustainability",
+    "content": "Our food security initiative ensures that no family goes to bed hungry. We're distributing food and building sustainable agricultural practices.",
+    "tags": ["food", "security", "sustainability"]
+  },
+  {
+    "id": 7,
+    "title": "Empowering Women in Rural Areas",
+    "author": "Helen Carter",
+    "published_date": "2024-10-22",
+    "status": "Published",
+    "popular": false,
+    "image_name": "women_empowerment.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=Women+Empowerment",
+    "category": "Women Empowerment",
+    "content": "Through vocational training and education, we're empowering women in rural areas to become leaders and change-makers.",
+    "tags": ["women", "empowerment", "leadership"]
+  },
+  {
+    "id": 8,
+    "title": "The Impact of Volunteerism on Global Communities",
+    "author": "Carlos Martinez",
+    "published_date": "2024-10-15",
+    "status": "Published",
+    "popular": false,
+    "image_name": "global_volunteerism.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=Volunteerism+Impact",
+    "category": "Volunteer Stories",
+    "content": "Volunteering not only transforms the lives of those receiving help, but also shapes the volunteers themselves. Discover the broader impacts of volunteering.",
+    "tags": ["volunteer", "global", "community"]
+  },
+  {
+    "id": 9,
+    "title": "The Power of Renewable Energy in Developing Countries",
+    "author": "Anna Williams",
+    "published_date": "2024-10-12",
+    "status": "Published",
+    "popular": true,
+    "image_name": "renewable_energy.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=Renewable+Energy",
+    "category": "Sustainability",
+    "content": "Renewable energy is crucial for sustainable development. Our NGO has installed solar panels and wind turbines to bring power to remote communities.",
+    "tags": ["energy", "sustainability", "renewable"]
+  },
+  {
+    "id": 10,
+    "title": "Creating Safe Spaces for At-Risk Youth",
+    "author": "James Harrison",
+    "published_date": "2024-10-05",
+    "status": "Published",
+    "popular": false,
+    "image_name": "youth_safety.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=Youth+Safety",
+    "category": "Youth Programs",
+    "content": "Our NGO runs programs that provide a safe haven for at-risk youth, offering mentorship and activities to keep them engaged and away from danger.",
+    "tags": ["youth", "safety", "mentorship"]
+  },
+  {
+    "id": 11,
+    "title": "Disaster Relief: Rebuilding After the Storm",
+    "author": "Lily Roberts",
+    "published_date": "2024-09-28",
+    "status": "Published",
+    "popular": true,
+    "image_name": "disaster_relief.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=Disaster+Relief",
+    "category": "Emergency Relief",
+    "content": "Our team works around the clock to provide disaster relief in areas struck by natural disasters, rebuilding homes and communities.",
+    "tags": ["disaster", "relief", "emergency"]
+  },
+  {
+    "id": 12,
+    "title": "The Importance of Mental Health Education in Schools",
+    "author": "David Clark",
+    "published_date": "2024-09-20",
+    "status": "Published",
+    "popular": true,
+    "image_name": "mental_health_education.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=Mental+Health+Education",
+    "category": "Education",
+    "content": "Mental health education in schools can help students develop coping skills and emotional resilience. Learn how we’re incorporating mental health awareness in curricula.",
+    "tags": ["education", "mental health", "schools"]
+  },
+  {
+    "id": 13,
+    "title": "Celebrating World Environment Day: Our Green Initiatives",
+    "author": "Olivia Taylor",
+    "published_date": "2024-09-15",
+    "status": "Published",
+    "popular": false,
+    "image_name": "world_environment_day.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=World+Environment+Day",
+    "category": "Environment",
+    "content": "On World Environment Day, we highlight our ongoing efforts to reduce waste, promote recycling, and conserve natural resources in our local communities.",
+    "tags": ["environment", "green", "conservation"]
+  },
+  {
+    "id": 14,
+    "title": "Partnering with Local Farmers for Sustainable Agriculture",
+    "author": "George Martinez",
+    "published_date": "2024-09-10",
+    "status": "Published",
+    "popular": true,
+    "image_name": "sustainable_agriculture.jpg",
+    "image_url": "https://via.placeholder.com/600x400?text=Sustainable+Agriculture",
+    "category": "Sustainability",
+    "content": "We're working alongside local farmers to create sustainable agricultural systems that benefit both the environment and the community.",
+    "tags": ["sustainability", "agriculture", "local farming"]
   }
+]
 }
